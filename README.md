@@ -12,11 +12,11 @@ Requirements:
 1) Any operating system supporting gcc compiler and installed openmp environment.                 
 2) System with multiple cores or any HPC supporting clustered nodes for parallel computing.     
 
-Changelogs:                                                                                     
+Change logs:                                                                                     
 
 WED, Oct 30, 2015                                                                              
-git repo initialized                                                                           
-project branched                                                                                  
+Git repo initialized                                                                           
+Project branched                                                                                  
 
 *****************
 
