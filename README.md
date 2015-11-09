@@ -1,5 +1,4 @@
 ==================================
-This is the README file for the CSE603(Parallel and Distributed Processing) curriculum project
 ++++++++++++++++++++++++++++++++++                                                           
 By Aniruddh Ramesh Adkar and Anuj Sharma
 
