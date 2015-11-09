@@ -23,7 +23,8 @@ project branched
 
 MON, Nov 09, 2015                                                                               
 Implemented sequential form of breath first search.                                            
-Parallel algorithm using 1D partitioning in progress and sequential form will help in comparing results and to gain insight in computation speedup achieved by parallelism. Initially generated data for 60,000 graph vertices.                                                                      
+Parallel algorithm using 1D partitioning in progress and sequential form will help in comparing results and to gain insight in computation speedup achieved by parallelism. Initially generated data for 60,000 graph vertices.       
+
 added sequential_bfs.c                                                                         
 added graphData.txt                                                                           
 
