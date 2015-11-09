@@ -28,6 +28,6 @@ And to gain insight in computation speedup achieved by parallelism. Initially ge
 for 60,000 graph vertices.                                                                      
 
 added sequential_bfs.c                                                                         
-added GraphInput.odt                                                                           
+added graphData.txt                                                                           
 
 ==================================                                                                 
