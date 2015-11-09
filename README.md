@@ -1,4 +1,4 @@
-## Parallel Breath First Search On Shared Memory                                                                   
+## Parallel Breadth First Search On Shared Memory                                                                   
 ++++++++++++++++++++++++++++++++++                                                           
 By Aniruddh Ramesh Adkar and Anuj Sharma
 
