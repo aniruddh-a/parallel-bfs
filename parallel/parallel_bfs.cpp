@@ -38,19 +38,20 @@ int total_no_of_processors;
 int total_no_of_vertices;
 int source_vertex;
 int level = 1;
-std::vector<vector<int> > adjacencyMatrix(1000000);
+// std::vector<vector<int> > adjacencyMatrix(1000000);
 
-class Graph2 {
+class CustomGraph {
 private:
-      
+      std::vector<vector<int> > adjacencyMatrix;
       int vertexCount;
 public:
       //bool** adjacencyMatrix;
       //int vertexC = 1000000;
       
       //bool *adjacencyMatrix = (bool *)malloc(vertexCount * vertexCount * sizeof(bool));
-      Graph2(int vertexCount) {
+      CustomGraph(int vertexCount) {
             this->vertexCount = vertexCount;
+            adjacencyMatrix = vector<vector<int> >(total_no_of_vertices);
             //adjacencyMatrix = new bool*[vertexCount];
             /*for (int i = 0; i < vertexCount; i++) {
                   //adjacencyMatrix[i] = new bool[vertexCount];
@@ -97,7 +98,7 @@ public:
         } 
       }
  
-      /*~Graph2() {
+      /*~CustomGraph() {
             for (int i = 0; i < vertexCount; i++)
                   delete[] adjacencyMatrix[i];
             delete[] adjacencyMatrix;
@@ -105,7 +106,7 @@ public:
 };
 
 void create_graph(void);
-void BFS(Graph2);
+void BFS(CustomGraph);
 //void create_positions_map(Graph g);
 
 int main(int argc, char *argv[]) {
@@ -246,7 +247,7 @@ void create_graph(void) {
 
    */
    //std::cout << "before graph" << std::endl;
-   Graph2 g(total_no_of_vertices);
+   CustomGraph g(total_no_of_vertices);
   //std::cout << "after graph 1" << std::endl;
   //if(processor_rank == 0){
   for(int i = 1; i < total_no_of_vertices; i++){
@@ -275,7 +276,7 @@ int find_owner(int s_vertex) {
   return s_vertex % total_no_of_processors;
 }
 
-void BFS(Graph2 g) {
+void BFS(CustomGraph g) {
   // get the property map for vertex indices
   //IndexMap index = get(vertex_index, g);
 
@@ -781,4 +782,5 @@ void BFS(Graph2 g) {
 
   // }
 }
+
 
