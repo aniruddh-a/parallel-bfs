@@ -12,7 +12,7 @@ Requirements:
 1) Any operating system supporting gcc compiler and installed openmpi environment along with boost library
 
 
-2) We have tested with gcc 4.8.4 and mpic++ 4.8.4, boost 1.5.9
+2) We have tested with gcc 4.8.4 and mpic++ 4.8.4, boost 1.59.0
 
 
 3) System with multiple cores or any HPC supporting clustered nodes for parallel computing.     
