@@ -43,3 +43,5 @@ added sequential_bfs.c
 added graphData.txt                                                                           
 
 ==================================                                                                 
+
+As part of the course : http://www.cse.buffalo.edu/~jzola/classes/2015/Fall/CSE603/
